@@ -1,0 +1,73 @@
+Model,Parameters,MSE,MAE
+RandomForestRegressor,"{'n_estimators': 1000, 'max_features': 'log2', 'n_jobs': -1}",152.70254365351244,9.670432164496006
+RandomForestRegressor,"{'n_estimators': 500, 'max_features': 'log2', 'n_jobs': -1}",153.10992965095207,9.688966705718416
+RandomForestRegressor,"{'n_estimators': 100, 'max_features': 'log2', 'n_jobs': -1}",155.9156788683553,9.783326940325699
+RandomForestRegressor,"{'n_estimators': 1000, 'max_features': 'sqrt', 'n_jobs': -1}",156.47721176799732,9.829142002247883
+RandomForestRegressor,"{'n_estimators': 500, 'max_features': 'sqrt', 'n_jobs': -1}",156.8462231863513,9.839057884049128
+RandomForestRegressor,"{'n_estimators': 100, 'max_features': 'sqrt', 'n_jobs': -1}",158.12828267531106,9.888928519490628
+KNeighborsRegressor,{'n_neighbors': 9},173.60251005950724,10.45775710499381
+KNeighborsRegressor,{'n_neighbors': 8},174.55291596830492,10.467666528413544
+KNeighborsRegressor,{'n_neighbors': 10},173.73844925777428,10.479688827851914
+RandomForestRegressor,"{'n_estimators': 1000, 'max_features': 'auto', 'n_jobs': -1}",176.18702013592215,10.489176222056663
+RandomForestRegressor,"{'n_estimators': 500, 'max_features': 'auto', 'n_jobs': -1}",176.2337081423169,10.4896653615253
+RandomForestRegressor,"{'n_estimators': 100, 'max_features': 'auto', 'n_jobs': -1}",177.30719707643584,10.512928542916413
+KNeighborsRegressor,{'n_neighbors': 11},174.28813296097826,10.51987373211585
+KNeighborsRegressor,{'n_neighbors': 12},175.22859940445002,10.561820112845082
+KNeighborsRegressor,{'n_neighbors': 7},180.3217427234399,10.615286123284669
+KNeighborsRegressor,{'n_neighbors': 13},176.57840883156481,10.61741131374575
+KNeighborsRegressor,{'n_neighbors': 14},178.08748612026542,10.677393227798973
+KNeighborsRegressor,{'n_neighbors': 15},179.55982980857263,10.743243151965416
+KNeighborsRegressor,{'n_neighbors': 6},186.2522108001874,10.791748087722375
+KNeighborsRegressor,{'n_neighbors': 16},181.33223034095158,10.819444710127945
+KNeighborsRegressor,{'n_neighbors': 17},183.38563215109704,10.903787064500461
+KNeighborsRegressor,{'n_neighbors': 5},190.58891713547658,10.913379291298961
+KNeighborsRegressor,{'n_neighbors': 18},185.3992823958641,10.987151532195737
+KNeighborsRegressor,{'n_neighbors': 19},187.4793403522016,11.074663688588236
+AdaBoostRegressor,{'n_estimators': 175},237.18560200096155,12.032827640385351
+AdaBoostRegressor,{'n_estimators': 200},237.14418420472938,12.056500033988167
+AdaBoostRegressor,{'n_estimators': 150},236.10931030627148,12.074806651753216
+LinearSVR,"{'C': 0.01, 'epsilon': 1, 'random_state': 0, 'max_iter': 10000}",219.9297439871094,12.158401086951912
+LinearSVR,"{'C': 0.01, 'epsilon': 0.1, 'random_state': 0, 'max_iter': 10000}",220.71703176107016,12.169503387184617
+LinearSVR,"{'C': 0.01, 'epsilon': 0.01, 'random_state': 0, 'max_iter': 10000}",222.47905406882032,12.185310781288853
+LinearSVR,"{'C': 0.5, 'epsilon': 1, 'random_state': 0, 'max_iter': 10000}",222.7208197750987,12.238157081350629
+LinearSVR,"{'C': 1, 'epsilon': 0.01, 'random_state': 0, 'max_iter': 10000}",222.32471361587986,12.240190256057515
+LinearSVR,"{'C': 0.1, 'epsilon': 0.01, 'random_state': 0, 'max_iter': 10000}",223.00521002665565,12.2496154795359
+LinearSVR,"{'C': 0.05, 'epsilon': 0.1, 'random_state': 0, 'max_iter': 10000}",224.2986695242383,12.25214315287088
+LinearSVR,"{'C': 0.5, 'epsilon': 0.1, 'random_state': 0, 'max_iter': 10000}",223.64512138310224,12.254468103259377
+LinearSVR,"{'C': 5, 'epsilon': 0.1, 'random_state': 0, 'max_iter': 10000}",223.18237082740882,12.262859957344723
+LinearSVR,"{'C': 5, 'epsilon': 1, 'random_state': 0, 'max_iter': 10000}",224.35624051109164,12.265005596311028
+LinearSVR,"{'C': 0.5, 'epsilon': 0.01, 'random_state': 0, 'max_iter': 10000}",225.92629664614847,12.27330553388853
+LinearSVR,"{'C': 5, 'epsilon': 0.01, 'random_state': 0, 'max_iter': 10000}",223.6193240299377,12.273336288275532
+LinearSVR,"{'C': 0.05, 'epsilon': 1, 'random_state': 0, 'max_iter': 10000}",224.13236835145526,12.273906255780892
+LinearSVR,"{'C': 0.1, 'epsilon': 1, 'random_state': 0, 'max_iter': 10000}",224.90673175972904,12.27919693699649
+LinearSVR,"{'C': 1, 'epsilon': 1, 'random_state': 0, 'max_iter': 10000}",224.3828372505981,12.284186479592625
+LinearSVR,"{'C': 0.05, 'epsilon': 0.01, 'random_state': 0, 'max_iter': 10000}",226.85442212909106,12.302691629186922
+LinearSVR,"{'C': 0.1, 'epsilon': 0.1, 'random_state': 0, 'max_iter': 10000}",226.6510119629602,12.305455794531282
+LinearSVR,"{'C': 1, 'epsilon': 0.1, 'random_state': 0, 'max_iter': 10000}",226.8207710873409,12.310073652226125
+AdaBoostRegressor,{'n_estimators': 75},246.67217992231096,12.335989342174301
+AdaBoostRegressor,{'n_estimators': 125},245.77218371183866,12.340758394260606
+AdaBoostRegressor,{'n_estimators': 100},251.35714141190158,12.572595947594756
+Ridge,"{'alpha': 1000, 'random_state': 0, 'max_iter': 10000}",228.822008022085,12.574475993386732
+Ridge,"{'alpha': 500, 'random_state': 0, 'max_iter': 10000}",229.0290235652844,12.583129143940193
+Ridge,"{'alpha': 100, 'random_state': 0, 'max_iter': 10000}",229.19731187844272,12.590104066544873
+Ridge,"{'alpha': 50, 'random_state': 0, 'max_iter': 10000}",229.21851901378923,12.590979084947227
+Ridge,"{'alpha': 10, 'random_state': 0, 'max_iter': 10000}",229.23551242371718,12.59167946925904
+Ridge,"{'alpha': 5, 'random_state': 0, 'max_iter': 10000}",229.23763833531584,12.59176704595861
+Ridge,"{'alpha': 1, 'random_state': 0, 'max_iter': 10000}",229.23933934258324,12.591837118686156
+Ridge,"{'alpha': 0.5, 'random_state': 0, 'max_iter': 10000}",229.23955198587,12.591845878608714
+Ridge,"{'alpha': 0.1, 'random_state': 0, 'max_iter': 10000}",229.2397221032803,12.591852886529622
+Ridge,"{'alpha': 0.05, 'random_state': 0, 'max_iter': 10000}",229.23974336813038,12.591853762518662
+Ridge,"{'alpha': 0.01, 'random_state': 0, 'max_iter': 10000}",229.2397603800383,12.59185446330973
+LinearRegression,{},229.23976463301878,12.591854638507462
+Lasso,"{'alpha': 0.01, 'random_state': 0, 'max_iter': 10000}",229.50033281666649,12.599418310812128
+AdaBoostRegressor,{'n_estimators': 50},257.93830746718805,12.600090805537038
+Lasso,"{'alpha': 0.05, 'random_state': 0, 'max_iter': 10000}",230.97600784375012,12.634348375828955
+Lasso,"{'alpha': 0.1, 'random_state': 0, 'max_iter': 10000}",234.41242566797868,12.715850236975735
+Lasso,"{'alpha': 0.5, 'random_state': 0, 'max_iter': 10000}",276.4715717579874,13.440448086835026
+Lasso,"{'alpha': 5, 'random_state': 0, 'max_iter': 10000}",634.305167667339,13.77459302018456
+Lasso,"{'alpha': 10, 'random_state': 0, 'max_iter': 10000}",574.5398621906778,13.899545411613934
+Lasso,"{'alpha': 1, 'random_state': 0, 'max_iter': 10000}",335.4409395777657,14.16776894904496
+Lasso,"{'alpha': 100, 'random_state': 0, 'max_iter': 10000}",626.825868266151,20.38902080173214
+Lasso,"{'alpha': 1000, 'random_state': 0, 'max_iter': 10000}",626.825868266151,20.38902080173214
+Lasso,"{'alpha': 50, 'random_state': 0, 'max_iter': 10000}",626.825868266151,20.38902080173214
+Lasso,"{'alpha': 500, 'random_state': 0, 'max_iter': 10000}",626.825868266151,20.38902080173214

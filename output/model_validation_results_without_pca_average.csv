@@ -1,0 +1,23 @@
+,Model,Parameters,MSE,MAE
+19,RandomForestRegressor,"{'n_estimators': 100, 'max_features': 'log2', 'n_jobs': -1}",143.82447785909054,9.426219566155671
+20,RandomForestRegressor,"{'n_estimators': 1000, 'max_features': 'log2', 'n_jobs': -1}",143.75231132348245,9.429526569559838
+21,RandomForestRegressor,"{'n_estimators': 500, 'max_features': 'log2', 'n_jobs': -1}",143.87992354942403,9.429841493047114
+3,AdaBoostRegressor,{'n_estimators': 175},226.18220654031268,11.865840092869995
+6,AdaBoostRegressor,{'n_estimators': 75},227.98886219170686,11.899184475628426
+15,Lasso,"{'alpha': 5, 'random_state': 0, 'max_iter': 10000}",225.9000592238045,11.964782314118375
+2,AdaBoostRegressor,{'n_estimators': 150},231.07046921272013,12.005969222973597
+0,AdaBoostRegressor,{'n_estimators': 100},232.6313677845952,12.024596677996039
+1,AdaBoostRegressor,{'n_estimators': 125},231.95464755610593,12.031402659949388
+18,LinearRegression,{},225.3998477807796,12.177122415575278
+8,Lasso,"{'alpha': 0.05, 'random_state': 0, 'max_iter': 10000}",214.61836782920577,12.194745831400814
+7,Lasso,"{'alpha': 0.01, 'random_state': 0, 'max_iter': 10000}",217.03696374147242,12.196118946983006
+9,Lasso,"{'alpha': 0.1, 'random_state': 0, 'max_iter': 10000}",217.69027226549989,12.273954936543094
+4,AdaBoostRegressor,{'n_estimators': 200},246.0138316514727,12.401635941337602
+5,AdaBoostRegressor,{'n_estimators': 50},248.77664723563063,12.488330482341425
+11,Lasso,"{'alpha': 1, 'random_state': 0, 'max_iter': 10000}",232.38166839349364,12.520920407191163
+10,Lasso,"{'alpha': 0.5, 'random_state': 0, 'max_iter': 10000}",232.18073665682923,12.640235803119431
+12,Lasso,"{'alpha': 10, 'random_state': 0, 'max_iter': 10000}",330.7903194817215,14.493673996460004
+13,Lasso,"{'alpha': 100, 'random_state': 0, 'max_iter': 10000}",626.825868266151,20.38902080173214
+14,Lasso,"{'alpha': 1000, 'random_state': 0, 'max_iter': 10000}",626.825868266151,20.38902080173214
+16,Lasso,"{'alpha': 50, 'random_state': 0, 'max_iter': 10000}",626.825868266151,20.38902080173214
+17,Lasso,"{'alpha': 500, 'random_state': 0, 'max_iter': 10000}",626.825868266151,20.38902080173214
